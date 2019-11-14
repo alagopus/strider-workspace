@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": [
+        "strider",
+        "strider-bitbucket",
+        "strider-cli",
+        "strider-extension-loader",
+        "strider-git",
+        "strider-github",
+        "strider-metadata",
+        "strider-simple-runner"
+    ]
+}

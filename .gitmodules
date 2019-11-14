@@ -1,0 +1,24 @@
+[submodule "strider"]
+	path = strider
+	url = git@github.com:alagopus/strider.git
+[submodule "strider-metadata"]
+	path = strider-metadata
+	url = git@github.com:alagopus/strider-metadata.git
+[submodule "strider-simple-runner"]
+	path = strider-simple-runner
+	url = git@github.com:alagopus/strider-simple-runner.git
+[submodule "strider-extension-loader"]
+	path = strider-extension-loader
+	url = git@github.com:alagopus/strider-extension-loader.git
+[submodule "strider-github"]
+	path = strider-github
+	url = git@github.com:alagopus/strider-github.git
+[submodule "strider-cli"]
+	path = strider-cli
+	url = git@github.com:alagopus/strider-cli.git
+[submodule "strider-git"]
+	path = strider-git
+	url = git@github.com:alagopus/strider-git.git
+[submodule "strider-bitbucket"]
+	path = strider-bitbucket
+	url = git@github.com:alagopus/strider-bitbucket.git
