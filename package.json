@@ -1,5 +1,12 @@
 {
+    "name": "strider-workspace",
+    "version": "1.0.0",
     "private": true,
+    "scripts": {
+        "devel": "yarn --cwd strider run build-debug",
+        "build": "yarn --cwd strider run build",
+        "start": "PATH=node_modules/.bin:$PATH nohup <&- >strider.log 2>&1 strider & exec true"
+    },
     "workspaces": [
         "strider",
         "strider-bitbucket",
