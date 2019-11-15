@@ -22,3 +22,6 @@
 [submodule "strider-bitbucket"]
 	path = strider-bitbucket
 	url = git@github.com:alagopus/strider-bitbucket.git
+[submodule "strider-ssh-deploy"]
+	path = strider-ssh-deploy
+	url = git@github.com:alagopus/strider-ssh-deploy.git
