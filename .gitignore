@@ -1,3 +1,5 @@
 node_modules/
+.vscode/
 strider.log
 yarn-error.log
+/strider-workspace-*.tgz

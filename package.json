@@ -15,6 +15,7 @@
         "strider-git",
         "strider-github",
         "strider-metadata",
+        "strider-ssh-deploy",
         "strider-simple-runner"
     ]
 }
