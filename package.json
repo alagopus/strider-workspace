@@ -3,19 +3,30 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
+        "clean": "rm -rf ./node_modules/ */node_modules/",
         "devel": "yarn --cwd strider run build-debug",
         "build": "yarn --cwd strider run build",
         "start": "PATH=node_modules/.bin:$PATH nohup <&- >strider.log 2>&1 strider & exec true"
     },
     "workspaces": [
+        "ecosystem-client",
         "strider",
         "strider-bitbucket",
         "strider-cli",
+        "strider-email-notifier",
+        "strider-env",
         "strider-extension-loader",
         "strider-git",
         "strider-github",
+        "strider-github-status",
+        "strider-gitlab",
+        "strider-heroku",
+        "strider-mailer",
         "strider-metadata",
+        "strider-runner-core",
+        "strider-simple-runner",
+        "strider-slack",
         "strider-ssh-deploy",
-        "strider-simple-runner"
+        "strider-webhooks"
     ]
 }

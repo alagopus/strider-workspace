@@ -25,3 +25,33 @@
 [submodule "strider-ssh-deploy"]
 	path = strider-ssh-deploy
 	url = git@github.com:alagopus/strider-ssh-deploy.git
+[submodule "strider-runner-core"]
+	path = strider-runner-core
+	url = git@github.com:alagopus/strider-runner-core.git
+[submodule "strider-heroku"]
+	path = strider-heroku
+	url = git@github.com:alagopus/strider-heroku.git
+[submodule "strider-webhooks"]
+	path = strider-webhooks
+	url = git@github.com:alagopus/strider-webhooks.git
+[submodule "ecosystem-client"]
+	path = ecosystem-client
+	url = git@github.com:alagopus/ecosystem-client.git
+[submodule "strider-gitlab"]
+	path = strider-gitlab
+	url = git@github.com:alagopus/strider-gitlab.git
+[submodule "strider-slack"]
+	path = strider-slack
+	url = git@github.com:alagopus/strider-slack.git
+[submodule "strider-env"]
+	path = strider-env
+	url = git@github.com:alagopus/strider-env.git
+[submodule "strider-email-notifier"]
+	path = strider-email-notifier
+	url = git@github.com:alagopus/strider-email-notifier.git
+[submodule "strider-mailer"]
+	path = strider-mailer
+	url = git@github.com:alagopus/strider-mailer.git
+[submodule "strider-github-status"]
+	path = strider-github-status
+	url = git@github.com:alagopus/strider-github-status.git
