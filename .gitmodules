@@ -55,3 +55,12 @@
 [submodule "strider-github-status"]
 	path = strider-github-status
 	url = git@github.com:alagopus/strider-github-status.git
+[submodule "strider-detection-rules"]
+	path = strider-detection-rules
+	url = git@github.com:alagopus/strider-detection-rules.git
+[submodule "strider-ruby"]
+	path = strider-ruby
+	url = git@github.com:alagopus/strider-ruby.git
+[submodule "strider-python"]
+	path = strider-python
+	url = git@github.com:alagopus/strider-python.git
