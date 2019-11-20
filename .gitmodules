@@ -64,3 +64,6 @@
 [submodule "strider-python"]
 	path = strider-python
 	url = git@github.com:alagopus/strider-python.git
+[submodule "strider-node"]
+	path = strider-node
+	url = git@github.com:alagopus/strider-node.git
