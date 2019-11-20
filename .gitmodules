@@ -1,69 +1,69 @@
 [submodule "strider"]
-	path = strider
+	path = packages/strider
 	url = git@github.com:alagopus/strider.git
 [submodule "strider-metadata"]
-	path = strider-metadata
+	path = packages/strider-metadata
 	url = git@github.com:alagopus/strider-metadata.git
 [submodule "strider-simple-runner"]
-	path = strider-simple-runner
+	path = packages/strider-simple-runner
 	url = git@github.com:alagopus/strider-simple-runner.git
 [submodule "strider-extension-loader"]
-	path = strider-extension-loader
+	path = packages/strider-extension-loader
 	url = git@github.com:alagopus/strider-extension-loader.git
 [submodule "strider-github"]
-	path = strider-github
+	path = packages/strider-github
 	url = git@github.com:alagopus/strider-github.git
 [submodule "strider-cli"]
-	path = strider-cli
+	path = packages/strider-cli
 	url = git@github.com:alagopus/strider-cli.git
 [submodule "strider-git"]
-	path = strider-git
+	path = packages/strider-git
 	url = git@github.com:alagopus/strider-git.git
 [submodule "strider-bitbucket"]
-	path = strider-bitbucket
+	path = packages/strider-bitbucket
 	url = git@github.com:alagopus/strider-bitbucket.git
 [submodule "strider-ssh-deploy"]
-	path = strider-ssh-deploy
+	path = packages/strider-ssh-deploy
 	url = git@github.com:alagopus/strider-ssh-deploy.git
 [submodule "strider-runner-core"]
-	path = strider-runner-core
+	path = packages/strider-runner-core
 	url = git@github.com:alagopus/strider-runner-core.git
 [submodule "strider-heroku"]
-	path = strider-heroku
+	path = packages/strider-heroku
 	url = git@github.com:alagopus/strider-heroku.git
 [submodule "strider-webhooks"]
-	path = strider-webhooks
+	path = packages/strider-webhooks
 	url = git@github.com:alagopus/strider-webhooks.git
 [submodule "ecosystem-client"]
-	path = ecosystem-client
+	path = packages/ecosystem-client
 	url = git@github.com:alagopus/ecosystem-client.git
 [submodule "strider-gitlab"]
-	path = strider-gitlab
+	path = packages/strider-gitlab
 	url = git@github.com:alagopus/strider-gitlab.git
 [submodule "strider-slack"]
-	path = strider-slack
+	path = packages/strider-slack
 	url = git@github.com:alagopus/strider-slack.git
 [submodule "strider-env"]
-	path = strider-env
+	path = packages/strider-env
 	url = git@github.com:alagopus/strider-env.git
 [submodule "strider-email-notifier"]
-	path = strider-email-notifier
+	path = packages/strider-email-notifier
 	url = git@github.com:alagopus/strider-email-notifier.git
 [submodule "strider-mailer"]
-	path = strider-mailer
+	path = packages/strider-mailer
 	url = git@github.com:alagopus/strider-mailer.git
 [submodule "strider-github-status"]
-	path = strider-github-status
+	path = packages/strider-github-status
 	url = git@github.com:alagopus/strider-github-status.git
 [submodule "strider-detection-rules"]
-	path = strider-detection-rules
+	path = packages/strider-detection-rules
 	url = git@github.com:alagopus/strider-detection-rules.git
 [submodule "strider-ruby"]
-	path = strider-ruby
+	path = packages/strider-ruby
 	url = git@github.com:alagopus/strider-ruby.git
 [submodule "strider-python"]
-	path = strider-python
+	path = packages/strider-python
 	url = git@github.com:alagopus/strider-python.git
 [submodule "strider-node"]
-	path = strider-node
+	path = packages/strider-node
 	url = git@github.com:alagopus/strider-node.git

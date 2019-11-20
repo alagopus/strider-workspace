@@ -3,11 +3,11 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-        "pretest": "eslint *.js",
-        "clean": "rm -rf ./node_modules/ */node_modules/",
-        "devel": "yarn --cwd strider run build-debug",
-        "build": "yarn --cwd strider run build",
-        "order": "./lorder.js | tsort | xargs -d '\\n' printf '\"%q\",\\n'",
+        "pretest": "eslint scripts/",
+        "clean": "rm -rf ./node_modules/ packages/*/node_modules/",
+        "devel": "yarn --cwd packages/strider run build-debug",
+        "build": "yarn --cwd packages/strider run build",
+        "order": "./scripts/lorder.js | tsort | xargs -d '\\n' printf '\"%q\",\\n'",
         "start": "PATH=node_modules/.bin:$PATH nohup <&- >strider.log 2>&1 strider & exec true"
     },
     "devDependencies": {
@@ -16,27 +16,30 @@
         "eslint-plugin-import": "^2.18.2"
     },
     "workspaces": [
-        "ecosystem-client",
-        "strider-detection-rules",
-        "strider-env",
-        "strider-extension-loader",
-        "strider-git",
-        "strider-github-status",
-        "strider-mailer",
-        "strider-metadata",
-        "strider-python",
-        "strider-ruby",
-        "strider-runner-core",
-        "strider-slack",
-        "strider-ssh-deploy",
-        "strider-webhooks",
-        "strider-cli",
-        "strider-bitbucket",
-        "strider-github",
-        "strider-gitlab",
-        "strider-heroku",
-        "strider-email-notifier",
-        "strider-simple-runner",
-        "strider"
-    ]
+        "packages/ecosystem-client",
+        "packages/strider-detection-rules",
+        "packages/strider-env",
+        "packages/strider-extension-loader",
+        "packages/strider-git",
+        "packages/strider-github-status",
+        "packages/strider-mailer",
+        "packages/strider-metadata",
+        "packages/strider-python",
+        "packages/strider-ruby",
+        "packages/strider-runner-core",
+        "packages/strider-slack",
+        "packages/strider-ssh-deploy",
+        "packages/strider-webhooks",
+        "packages/strider-cli",
+        "packages/strider-bitbucket",
+        "packages/strider-github",
+        "packages/strider-gitlab",
+        "packages/strider-heroku",
+        "packages/strider-email-notifier",
+        "packages/strider-simple-runner",
+        "packages/strider"
+    ],
+    "dependencies": {
+        "bluebird": "^3.7.1"
+    }
 }
