@@ -10,11 +10,6 @@
         "order": "./scripts/lorder.js | tsort | xargs -d '\\n' printf '\"%q\",\\n'",
         "start": "PATH=node_modules/.bin:$PATH nohup <&- >strider.log 2>&1 strider & exec true"
     },
-    "devDependencies": {
-        "eslint": "^5.16.0",
-        "eslint-config-airbnb-base": "^14.0.0",
-        "eslint-plugin-import": "^2.18.2"
-    },
     "workspaces": [
         "packages/ecosystem-client",
         "packages/strider-detection-rules",
@@ -40,6 +35,6 @@
         "packages/strider"
     ],
     "dependencies": {
-        "bluebird": "^3.7.1"
+        "bluebird": "^3.7.2"
     }
 }
